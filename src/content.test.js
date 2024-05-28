@@ -1,6 +1,9 @@
+/**
+* @vitest-environment happy-dom
+*/
 import {descipe , it , expect} from 'vitest'
 import { mount } from '@vue/test-utils'
-import content from './content.vue'
+import content from './components/content.vue'
 
 descipe('content test' , ()=>{
     it('should render' , ()=>{
